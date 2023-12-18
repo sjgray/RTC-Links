@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cbm")(type "Legacy")(uri "${KIPRJMOD}/Libs/cbm.lib")(options "")(descr ""))
+  (lib (name "user_port_con")(type "Legacy")(uri "${KIPRJMOD}/Libs/user_port_con.lib")(options "")(descr ""))
+)
