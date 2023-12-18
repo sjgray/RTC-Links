@@ -11,7 +11,7 @@ RTC released several different devices including:
 * Link-II for C64
 * Mult-Link for C64
 
-I personally own a both a Link and Link-II which I would like to clone. I have started with
+I personally own both a Link and Link-II, which I would like to clone. I have started with
 the Link-II as it has the most features of the two. Also, the Link-II uses a single PCB
 with components on both sides.
 
@@ -21,8 +21,8 @@ Link-II
 
 This is a single PCB with components on both sides. It was done this way to make the PCB
 as small as possible so it could fit inside an AMP connector shell. There are two flyouts
-that are connected interally into the C64 to make the Link more "transparent" which means
-that no IO or ROM are visible when not in use. The Link-II also seems to work without these
+that are connected internally into the C64 to make the Link more "transparent" which means
+that IO and ROM are invisible when not in use. The Link-II also seems to work without these
 connections but might have conflicts with other hardware or software.
 
 First step was to desolder all the components and scan each side. I then flipped the back-side
@@ -50,3 +50,4 @@ Future
 
 I would like to clone the original Link design but it uses a double-pcb design. I think the
 original design would be ok for most people.
+
