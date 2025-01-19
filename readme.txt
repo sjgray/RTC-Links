@@ -2,7 +2,7 @@ RTC Link Devices
 ================
 
 http://www.cbmsteve.ca/
-http://www.cbmsteve.ca/rtclinks/imdex.html
+http://www.cbmsteve.ca/rtclinks/index.html
 
 This is a project to clone and improve the Richmond Telecommunications ("RTC") Devices.
 
