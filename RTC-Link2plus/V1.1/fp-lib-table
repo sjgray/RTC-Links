@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "c64cart")(type "KiCad")(uri "${KIPRJMOD}/c64cart.pretty")(options "")(descr ""))
+  (lib (name "Libs")(type "KiCad")(uri "${KIPRJMOD}/Libs")(options "")(descr ""))
+  (lib (name "RTC-Link2")(type "KiCad")(uri "//NAS/data/Personal/Steve/MyProjects/_KiCadProjects/RTC-Link2")(options "")(descr ""))
+)

@@ -28,25 +28,28 @@ that are connected internally into the C64 to make the Link more "transparent" w
 that IO and ROM are invisible when not in use. The Link-II also seems to work without these
 connections but might have conflicts with other hardware or software.
 
-First step was to desolder all the components and scan each side. I then flipped the back-side
+First step was to de-solder all the components and scan each side. I then flipped the back-side
 scan. Kicad was loaded and a new project created. I then loaded the front side and flipped
 back-side as images and then added the components. I added global labels for the busses For the
 address and data lines etc. I placed the components in their proper places then traced over the
 traces on the images to connect the pins, updating labels where necessary.
 
-Status: The design is complete. I will be ordering PCB's shortly (after the holidays).
+Status: I will no be ordering PCB's of this design right away. I am concentrating on the PLUS
+        version first as it will be easier to populate
 
 
 Link-II Plus
 ------------
 
 Once the Link-II was reverse engineered I decided to make a new version but with all components
-on the same side making the board easier to build. I replaced the DIP eprom with a PLCC version,
-and the resistors with a resistor network in order to save space. I also replaced the Link
-edge-connector with a pin header to allow a more common IDC riboon cable.
+on the same side making the board easier to build. I replaced the DIP EPROM with a PLCC version,
+and some resistors with a resistor network in order to save space. I also replaced the Link
+edge-connector with a pin header to allow a more common IDC ribbon cable.
 
-Status: The design is complete. After the regular Link-II is verified I will make a run of
-	Link-II+ boards.
+Status: I ordered some V1.0 PCBs. On testing I discovered an error with resistor R9. This was
+        corrected manually on the PCB and the board was tested to work properly.
+        The design was updated to V1.1 and boards will be made. This should work correctly.        
+
 
 Future
 ------
@@ -54,3 +57,8 @@ Future
 I would like to clone the original Link design but it uses a double-pcb design. I think the
 original design would be ok for most people.
 
+
+Thank-you
+---------
+
+Thanks to Walter Miraglia for helping me test and debug RTC-Link II+ V1.0!
